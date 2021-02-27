@@ -1,7 +1,7 @@
 const Disposition = () => {
   return (
     <div>
-      <p>dis</p>
+ 
     </div>
   )
 }

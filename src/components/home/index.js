@@ -1,12 +1,15 @@
-import Hello from 'components/hello';
-import Card from 'components/layouts/card'
+import Header from 'components/header'
+import ItemsContainer from 'components/itemsContainer'
+import Movements from 'components/movements'
+
+import styles from './styles.module.scss'
 
 const Home = () => {
   return (
-    <div>
-      <p>home</p>
-      <Card />
-      <Hello />
+    <div className={styles.container}>
+      <Header />
+      <ItemsContainer />
+      <Movements />
     </div>
   )
 }

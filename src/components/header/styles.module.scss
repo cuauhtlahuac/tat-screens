@@ -1,0 +1,6 @@
+@import '/src/styles.scss';
+
+.container {
+  background: linear-gradient(to top, $sky -115%, $transparency 90%);
+  flex: 2;
+}

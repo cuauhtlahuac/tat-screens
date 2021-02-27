@@ -1,0 +1,13 @@
+$violet: #783183;
+$white: #fefefe;
+$sky: rgba(34, 168, 210, 0.2);
+$transparency: rgba(255, 255, 255, 0);
+
+
+body {
+ background-color: $white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
