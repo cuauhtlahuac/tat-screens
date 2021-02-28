@@ -1,0 +1,20 @@
+
+@mixin shared {
+  width: 123px;
+  height: 18px;
+  margin: 0 32px 0 0;
+  color: #333333;
+}
+
+.type1 {
+  @include shared();
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.type2 {
+  @include shared();
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+}

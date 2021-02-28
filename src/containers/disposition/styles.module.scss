@@ -1,0 +1,10 @@
+@import '/src/styles.scss';
+
+.container {
+  display: flex;
+  height: 812px;
+  width: 375px;
+  flex-direction: column;
+  border: 1px #cdcdcd solid;
+  background: linear-gradient(to top, $sky -115%, $transparency 90%);
+}

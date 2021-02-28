@@ -1,0 +1,15 @@
+@import "/src/styles.scss";
+
+.container {
+	background-color: $primary-blue;
+	width: 120px;
+	height: 32px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $white;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+}

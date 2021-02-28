@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
 $violet: #783183;
 $white: #fefefe;
 $sky: rgba(34, 168, 210, 0.2);
+$primary-blue: #5acaee;
 $transparency: rgba(255, 255, 255, 0);
+$graphite: #444;
+$gray-line: #bbbbbb;
+
 
 
 body {
@@ -10,4 +16,5 @@ body {
  justify-content: center;
  align-items: center;
  height: 100vh;
+ font-family: 'Open Sans', Helvetica, sans-serif;
 }

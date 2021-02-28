@@ -1,11 +1,11 @@
-import Disposition from 'components/disposition';
-import Home from 'components/home';
+import Disposition from 'containers/disposition';
+import Home from 'containers/home';
 import './styles.scss';
 
 function App() {
 	return (
 		<div>
-			<Home />
+			
 			<Disposition />
 		</div>
 	);

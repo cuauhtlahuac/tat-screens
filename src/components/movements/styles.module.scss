@@ -1,6 +1,35 @@
 @import '/src/styles.scss';
 
 .container {
-  flex: 4;
-  background-color: $white;
+	flex: 4;
+	display: flex;
+	flex-direction: column;
+	background-color: $white;
+}
+
+.list {
+	overflow-x: auto;
+	scroll-behavior: smooth;
+	cursor: s-resize;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.header {
+	:nth-child(1) {
+		padding: 0 7.5px;
+		align-self: flex-end;
+		margin-bottom: 16px;
+	}
+	
+	flex: 1;
+	display: flex;
+
+	& span {
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 1.33;
+		color: $graphite;
+	}
 }

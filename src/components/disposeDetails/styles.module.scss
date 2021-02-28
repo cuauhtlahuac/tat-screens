@@ -1,0 +1,32 @@
+@import '/src/styles.scss';
+
+.container {
+	display: flex;
+	margin: 0 0 7px 0;
+	align-items: center;
+	justify-content: space-between;
+	height: 17px;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	color: $primary-blue;
+}
+
+.label {
+	margin: 12px 0 9px 8px;
+	font-size: 11px;
+	line-height: 1.33;
+	color: $graphite;
+}
+
+.amount {
+	font-size: 12px;
+	font-weight: 600;
+	text-align: right;
+	color: $graphite;
+}

@@ -1,0 +1,19 @@
+.container {
+	align-self: center;
+	position: absolute;
+	min-width: 300px;
+	top: 26%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.money {
+	font-size: 34px;
+  font-weight: bold;
+  line-height: 1.18;
+  color: #bb64c8;
+}

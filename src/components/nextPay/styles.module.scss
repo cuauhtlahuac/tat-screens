@@ -1,0 +1,44 @@
+.container {
+	position: absolute;
+	min-width: 300px;
+	align-self: center;
+	top: 42%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+  align-items: center;
+	justify-content: space-between;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.date {
+	width: 118px;
+	height: 18px;
+	margin: 4px 37px 12px 0;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 0.89;
+	color: #333333;
+}
+
+.money {
+	width: 211px;
+	height: 40px;
+	margin: 0 64px 8px 0;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.43;
+	color: #333333;
+}
