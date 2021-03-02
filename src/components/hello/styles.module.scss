@@ -9,8 +9,11 @@
 	flex: 1;
 
 	& .avatar {
-		right: 72px;
 		position: absolute;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    margin-left: 270px;
 	}
 }
 
