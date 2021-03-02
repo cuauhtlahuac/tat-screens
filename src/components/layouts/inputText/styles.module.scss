@@ -1,0 +1,20 @@
+@import '/src/styles.scss';
+
+.container {
+	line-height: 1.14;
+	padding: 10px;
+	border-radius: 4px;
+	border: solid 1px #5acaee;
+	width: 300px;
+	margin-bottom: 12px;
+}
+
+.input {
+	font-size: 14px;
+	border: 0;
+	background: transparent;
+	line-height: 1.43;
+	font-weight: 600;
+	color: $graphite;
+	width: 100%;
+}

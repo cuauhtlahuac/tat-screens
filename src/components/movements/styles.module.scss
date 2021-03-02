@@ -17,19 +17,28 @@
 }
 
 .header {
-	:nth-child(1) {
-		padding: 0 7.5px;
-		align-self: flex-end;
+	padding: 0 20px;
+	& span {
 		margin-bottom: 16px;
+		align-self: flex-end;
 	}
 	
 	flex: 1;
 	display: flex;
-
-	& span {
+	align-items: center;
+	justify-content: space-between;
+	
+	& span:nth-child(1) {
 		font-size: 24px;
 		font-weight: 600;
 		line-height: 1.33;
 		color: $graphite;
+	}
+	
+	& span:nth-child(2) {
+		cursor: pointer;
+		font-size: 15px;
+		line-height: 1.33;
+		color: #22a8d2;
 	}
 }

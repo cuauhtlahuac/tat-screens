@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 
-import Label from 'components/layouts/label';
-
 import styles from './styles.module.scss';
 
-const disposeDetails = ({ Icon, label, amount }) => {
+const disposeDetails = ({ icon = () => null, label, amount }) => {
+
+	const Icon = icon;
+
 	return (
 		<span className={styles.container}>
 			<span className={styles.wrapper}>
@@ -17,7 +18,7 @@ const disposeDetails = ({ Icon, label, amount }) => {
 };
 
 disposeDetails.propTypes = {
-	Icon: PropTypes.node,
+	icon: PropTypes.element,
 	label: PropTypes.string,
 	amount: PropTypes.number,
 };

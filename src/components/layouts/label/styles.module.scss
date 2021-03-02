@@ -1,9 +1,10 @@
+@import '/src/styles.scss';
 
 @mixin shared {
   width: 123px;
   height: 18px;
   margin: 0 32px 0 0;
-  color: #333333;
+  color: $graphite;
 }
 
 .type1 {

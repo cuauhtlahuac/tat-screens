@@ -1,27 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-import MovementItem from 'components/movementsItem'
+import MovementItem from 'components/movementsItem';
+import { movements as mock } from 'mocks/movements';
 
-import styles from './styles.module.scss'
+import styles from './styles.module.scss';
 
-const movements = () => {
-  return (
-    <div className={styles.container}>
-      <div className={styles.header}>
-        <span>Tus movimientos</span>
-      </div>
-    <div className={styles.list}>
+const movements = ({ handleShowHome }) => (
+	<div className={styles.container}>
+		<div className={styles.header}>
+			<span>Tus movimientos</span>
+			<span onClick={handleShowHome}>Ver todos</span>
+		</div>
 
-    <MovementItem />
-    <MovementItem />
-    <MovementItem />
-    <MovementItem />
-    <MovementItem />
-    </div>
+		<div className={styles.list}>
+			{mock.map(data => <MovementItem {...data} />)}
+		</div>
+	</div>
+);
 
-
-    </div>
-  )
-}
-
-export default movements
+export default movements;

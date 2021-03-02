@@ -1,0 +1,52 @@
+@import '/src/styles.scss';
+
+.container {
+	display: flex;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	height: 250px;
+	width: 250px;
+	text-align: center;
+}
+
+.label {
+	margin-bottom: 4px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+	color: $graphite;
+}
+
+.plazo {
+	margin-bottom: 4px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.33;
+	color: $graphite;
+}
+
+.amount {
+	font-size: 24px;
+	font-weight: bold;
+	color: #222b45;
+}
+
+.tasa {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+	text-align: center;
+	color: $primary-blue;
+}
+
+.circle {
+	border-radius: 1px solid red;
+	display: flex;
+	align-items: center;
+}

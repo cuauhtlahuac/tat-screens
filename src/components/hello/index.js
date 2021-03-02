@@ -1,13 +1,15 @@
-import React from 'react'
-import Avatar from 'components/layouts/avatar'
+import styles from './styles.module.scss';
+import Avatar from 'components/layouts/avatar';
 
-const Hello = ({name = "José"}) => {
-  return (
-    <div>
-      <p>Hola { name }</p>
-      <Avatar />
-    </div>
-  )
-}
+const Hello = ({ name = 'Rodrigo' }) => {
+	return (
+		<div className={styles.container}>
+			<span className={styles.label}>Hola { name }</span>
+			<div className={styles.avatar}>
+				<Avatar />
+			</div>
+		</div>
+	);
+};
 
-export default Hello
+export default Hello;

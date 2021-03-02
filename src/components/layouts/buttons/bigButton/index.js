@@ -1,11 +1,5 @@
 import styles from './styles.module.scss';
 
-const button = () => {
-  return (
-    <div className={styles.container}>
-      
-    </div>
-  )
-}
+const button = () => <div className={styles.container}>LO QUIERO</div>;
 
-export default button
+export default button;
